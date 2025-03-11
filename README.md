@@ -1,2 +1,3 @@
-# hopCalculator
-A simple calculator
+# hopCalculator |  A simple calculator😒
+
+Just for practicing Javascript (For Fun😉)
