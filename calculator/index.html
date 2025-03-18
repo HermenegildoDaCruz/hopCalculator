@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopCalculator</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="backdrop"></div>
+
+    <div class="history">
+        <h2>history</h2>
+        <span class="delete-history">Delete All</span>
+        <div class="operations">
+        </div>
+    </div>
+
+    <div class="container">
+        <svg class="view-history" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-120q-138 0-240.5-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z"/></svg>
+        <div class="display"></div>
+        <div class="button-grid">
+            <button class="clear">C</button>
+            <button class="button divide">/</button>
+            <button class="button">*</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button zero">0</button>
+            <button class="button percent">%</button>
+            <button class="button comma">,</button>
+            <button class="backspace"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button>
+            <button class="button plus">+</button>
+            <button class="button minus">-</button>
+            <button class="button multiply">*</button>
+            <button class="calc">=</button>
+        </div>
+    </div>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
